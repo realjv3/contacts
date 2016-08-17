@@ -1,0 +1,56 @@
+/**
+ * Nav Area
+ */
+.navbar {
+    background: #9fa8da;
+}
+
+.navbar .navbar-nav > li > a .material-icons, .navbar .navbar-nav > li > a .fa {
+    max-width: initial;
+}
+
+/**
+ * Content Area
+ */
+section.panel {
+    width: 50vw;
+    min-height: 65vh;
+    margin: 3vh auto;
+    display: none;
+    background: no-repeat center white;
+    background-size: contain;
+}
+
+ul {
+    margin: initial;
+}
+
+section#contacts.panel {
+    display: block;
+}
+
+.form-group.label-floating label.control-label, .form-group.label-placeholder label.control-label {
+    top: initial;
+}
+
+section.panel div .fa {
+    margin-right: 10px;
+}
+
+section#contacts a, section#contacts a:hover {
+    width: 100%;
+    text-decoration: none;
+}
+
+section ul li.contact {
+    min-height: 72px;
+}
+
+section ul li.contact img {
+    float: left;
+    margin-right: 7px;
+}
+
+#contacts_ul > li button {
+    float: right;
+}
